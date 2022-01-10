@@ -1,0 +1,97 @@
+/*Global*/
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: 'Lora', serif;
+}
+h1,
+h2,
+h3{
+    text-align: center;
+    padding:10px 0;
+}
+p {
+    line-height: 2;
+    text-align: justify;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+/*utilities*/
+.bold-text{
+    font-weight: 700;
+}
+.container{
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+/*header*/
+header {
+    background-color: rgb(190, 212, 241);
+    height: 200px;
+    
+}
+.header-title h1{
+  text-transform: uppercase;
+  font-size: 40px;
+  letter-spacing: 8px;
+}
+.header-title h2{
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 6px;
+
+}
+.header-title p{
+    text-transform: uppercase;
+    text-align: center;
+    font-size:15px;
+    letter-spacing: 4px;
+    padding-bottom: 15px;
+}
+
+nav{
+    background-color: aliceblue;
+    text-align: center;
+    padding:10px;
+   
+}
+
+nav a{
+    color:navy;
+    margin-right: 30px;
+    letter-spacing: 6px;
+}
+
+/*main*/
+main{
+    background-color: rgb(190, 198, 206);
+   
+}
+/*hobbies*/
+ul li{
+    font-size: 18px;
+    margin:40px;
+    
+}
+ol li{
+    font-size: 18px;
+    margin:40px;
+     
+}
+
+/*footer*/
+.footer-text{
+    text-align: center;
+    background-color: rgb(190, 212, 241);
+    
+}
+
